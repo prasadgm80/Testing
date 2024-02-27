@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-06T18:15:39.702Z",
+        "line": 4,
+        "name": "Searching vegetable name and validating it",
+        "description": "",
+        "id": "testing-selenium-flow-for-rahul-shettyacademy.com;searching-vegetable-name-and-validating-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28456016200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is navigated to website",
+            "match": {
+              "location": "stepDefinition.SeleniumImplement.user_is_navigated_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1150518400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User searched for vegetable \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinition.SeleniumImplement.user_searched_for_vegetable_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RFDNNRIC\u0027, ip: \u0027192.168.176.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\PRASAD~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 18228c4cb2506e85af8c428bfcb1b33a\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)\r\n\tat stepDefinition.SeleniumImplement.results_something_are_displayed(SeleniumImplement.java:38)\r\n\tat ✽.Results \"Cucumber\" are displayed(file:///C:/Users/prasadgm80/eclipse-workspace/Cucumber/src/test/java/features/SeleniumTest.feature:7)\r\n",
+              "duration": 384939100,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Results \"Cucumber\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinition.SeleniumImplement.results_something_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Selenium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T18:16:10.004Z",
+        "line": 10,
+        "name": "Searching vegetable name and Adding it to cart",
+        "description": "",
+        "id": "testing-selenium-flow-for-rahul-shettyacademy.com;searching-vegetable-name-and-adding-it-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12687049100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is navigated to website",
+            "match": {
+              "location": "stepDefinition.SeleniumImplement.user_is_navigated_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345802600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User searched for vegetable \"Brinjal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinition.SeleniumImplement.user_searched_for_vegetable_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RFDNNRIC\u0027, ip: \u0027192.168.176.2\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\PRASAD~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 30f1df26e14120ee51c0c092472c55d9\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinition.SeleniumImplement.item_is_added_to_cart(SeleniumImplement.java:52)\r\n\tat ✽.item is added to cart(file:///C:/Users/prasadgm80/eclipse-workspace/Cucumber/src/test/java/features/SeleniumTest.feature:13)\r\n",
+              "duration": 683151300,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "item is added to cart",
+            "match": {
+              "location": "stepDefinition.SeleniumImplement.item_is_added_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "proceed to checkout",
+            "match": {
+              "location": "stepDefinition.SeleniumImplement.proceed_to_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "verify \"Brinjal\" is populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinition.SeleniumImplement.verify_something_is_populated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Selenium"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Selenium flow for Rahul ShettyAcademy.com",
+    "description": "",
+    "id": "testing-selenium-flow-for-rahul-shettyacademy.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SeleniumTest.feature",
+    "tags": []
+  }
+]
