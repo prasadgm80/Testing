@@ -15,5 +15,6 @@ public class getLocation {
 		this.longitude = longitude;
 	}
 	private String longitude;
+	
 
 }
