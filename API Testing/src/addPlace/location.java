@@ -17,5 +17,6 @@ public class location {
 		this.lng = lng;
 	}
 	
+	
 
 }
