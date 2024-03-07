@@ -6,6 +6,7 @@ import java.util.List;
 
 public class getPlace {
 
+	
 	private getLocation location;
 	private String accuracy;
 	private String name;
