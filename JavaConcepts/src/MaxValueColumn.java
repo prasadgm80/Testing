@@ -6,10 +6,8 @@ public class MaxValueColumn {
 
 		// Finding minimum value in array and then finding maximum value from that column
 		
-
 		int arr[][] = {{1, 5, 8}, {4, 7, 11}, {2, 6, 15}};
 		System.out.println("Max Value is " + maxVal(arr));
-		
 
 }
 	
@@ -35,7 +33,7 @@ public class MaxValueColumn {
 }
 		int maxvalue = b[0][mincolumn];
 		int k = 0;
-		while (k<3)
+		while (k<b.length)
 		{
 			if(b[k][mincolumn]>maxvalue)
 			{

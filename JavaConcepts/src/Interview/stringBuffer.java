@@ -7,6 +7,7 @@ public class stringBuffer {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		ArrayList<String> ab =new ArrayList();
 		ab.add("Hello World");
 		

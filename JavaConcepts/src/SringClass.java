@@ -6,12 +6,13 @@ public class SringClass {
 		
 		//Defining string with String Literal
 		String a = " Hello";
-		System.out.println(a.trim());
+		//System.out.println(a.trim());
 		
 		String b = " Prasad";
 		
 		//Defining string by creating object of class
-		
+/*		
+		System.out.println(b.toUpperCase());
 		
 		System.out.println(a.charAt(2));
 		System.out.println(a.indexOf("e"));
@@ -27,8 +28,19 @@ public class SringClass {
 		System.out.println(arr[1]);
 		
 		System.out.println(ab.replace("l", "k"));
+*/		
+		String s1 = "abc";
+		String s2 = "abc";
+		String s3 = new String("abc");
 		
+		System.out.println(s1==s2);
+		System.out.println(s1==s3);
+		System.out.println(s1.equalsIgnoreCase(s3));
 		
+		StringBuilder sb = new StringBuilder();
+		sb.append("Test");
+		
+		System.out.println(sb);
 		
 	}
 

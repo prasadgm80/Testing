@@ -5,7 +5,7 @@ public class missingNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int arr[] = {1, 2, 4, 3, 5, 7};
+		int arr[] = {1, 2, 4, 3, 5, 7, 8, 6};
 		System.out.println("Missing number is " + missingN(arr));
 		
 		

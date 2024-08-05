@@ -9,10 +9,11 @@ public class ArrayListDemo {
 		a.add("Abhijit");
 		a.add("Akshay");
 		a.add("Atul");
+		a.add("null");
 		
 		System.out.println(a);
 		
-		a.add(1, "Avinash");
+		a.add(0, "Avinash");
 		System.out.println(a);
 		
 /*		a.remove(1);
@@ -24,6 +25,11 @@ public class ArrayListDemo {
 		
 		System.out.println(a.indexOf("Atul"));
 		a.size();
+		
+		for(int i=0; i<a.size(); i++)
+		{
+			System.out.println(a.get(i));
+		}
 	}
 
 }

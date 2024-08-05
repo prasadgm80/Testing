@@ -10,6 +10,8 @@ public class duplicate {
 		
 		String s = "Applpe";
 		
+	
+		
 		HashSet hs = new HashSet();
 		
 		for(int i=0; i<s.length(); i++)

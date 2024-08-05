@@ -18,6 +18,13 @@ public class Array {
 		
 		int b[] = {1, 2, 3, 4, 5};
 		
+		String name = "Prasad";
+		
+		if(name.contains("asa"))
+				{
+			System.out.println("Pass");
+				}
+		
 		
 	}
 

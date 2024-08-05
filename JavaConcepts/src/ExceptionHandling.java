@@ -12,16 +12,21 @@ public class ExceptionHandling {
 			int a = 7;
 			int b = 5;
 			int c = 0;
-			
+			int[] arr = {};
+			int x = arr[3];
 			int k = a/c;
 		}
 
-		catch(ArithmeticException et) {
+		catch(ArithmeticException et) 
+		{
 			System.out.println("Arithmatic Exception is caught");
 		}
+	
 		
-		catch(Exception e) {
+		catch(Exception e) 
+		{
 			System.out.println("Error is caught");
+			System.out.println(e);
 		}
 		finally
 		{

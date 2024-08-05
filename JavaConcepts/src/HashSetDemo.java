@@ -10,9 +10,16 @@ public class HashSetDemo {
 		hs.add("USA");
 		hs.add("UK");
 		hs.add("INDIA");
-		//hs.add("UK");
+		hs.add("Uk");
 		hs.add("Australia");
 		hs.add("China");
+		
+		hs.add("INDIA");
+		hs.add(null);
+		hs.add("null");
+		hs.add(null);
+		
+		System.out.println(hs);
 		
 		Iterator<String> i=hs.iterator();
 		//i.next();

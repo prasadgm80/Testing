@@ -4,7 +4,7 @@ public class primeNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int num = 2;
+		int num = 212;
 		double srt = Math.sqrt(num);
 	    boolean flag = false;
 	    for (int i = 2; i <= srt; ++i) {

@@ -17,7 +17,7 @@ public class SecondMin {
 			{
 				 k = b[i];
 				 b[i] = b[j];
-				 b[j] = k;
+				 b[j] = k;       
 			}
 		
 		}

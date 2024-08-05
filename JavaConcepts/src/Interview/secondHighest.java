@@ -5,6 +5,10 @@ public class secondHighest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//StringBuffer sb = new StringBuffer();
+		
+		
+		
 		int arr[] = {5, 7, 10, 15, 25};
 		int m = arr.length;
 		int j=0;
@@ -24,6 +28,7 @@ public class secondHighest {
 		}		
 
 		System.out.println(arr[1]);
+		//System.out.println(arr);
 	}
 
 }
