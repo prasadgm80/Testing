@@ -7,11 +7,11 @@ public class PrimeNumberTillNValue {
 		int num=100;
 		
 		
-		for(int i=3;i<num; i++)
+		for(int i=2;i<num; i++)
 		{
 			boolean flag = false;
 			
-			for(int j=i-1; j>1; j--)
+			for(int j=(int)(Math.sqrt(i)); j>1; j--)
 			{
 				if(i%j ==0)
 				{

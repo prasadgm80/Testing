@@ -43,21 +43,6 @@ public class RomanNumerals {
         }
             System.out.println(roman);
 		
-/*		Set sn = hs.entrySet();
-		Iterator it = sn.iterator();
-		System.out.println(hs);
-		
-		while(it.hasNext())
-		{
-			Map.Entry mp = (Map.Entry) it.next();
-			
-			//System.out.println(it.next());
-			//System.out.println(mp.getKey());
-			//System.out.println(mp.getValue());
-			
-			System.out.println(mp.getKey()+" for "+mp.getValue());
-		}
-*/
 	}
 
 	}

@@ -9,7 +9,7 @@ public class Testing {
 		
 		for(int i=0; i<a.length(); i++)
 		{
-			//char ch =
+			
 			
 			if(Character.isLowerCase(a.charAt(i)))
 			{
@@ -17,6 +17,7 @@ public class Testing {
 			}
 			
 			else
+				
 			{
 				System.out.println(a.charAt(i)+" is uppercase");
 			}

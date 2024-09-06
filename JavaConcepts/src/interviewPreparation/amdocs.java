@@ -5,7 +5,7 @@ public class amdocs {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String test = "aabbbccccaaaaaa";
+		String test = "aabbbccccaaaaaaa";
 		int counter = 1;
 		
 		//StringBuilder comp = new StringBuilder();

@@ -24,7 +24,7 @@ public class UniqueStringHshSet {
 				return false;
 			}						
 		}
-		
+		System.out.println(hs);
 		return true;
 	}
 

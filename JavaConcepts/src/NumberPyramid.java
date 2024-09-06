@@ -9,8 +9,8 @@ public class NumberPyramid {
 		{
 			
 			
-			for(int j=1; j<=4-i; j++)
-//			for(int j=1; j<=i+1; j++)	   // loop for reverse pyramid
+			//for(int j=1; j<=4-i; j++)
+			for(int j=1; j<=i+1; j++)	   // loop for reverse pyramid
 				
 			{
 				System.out.print(k);
